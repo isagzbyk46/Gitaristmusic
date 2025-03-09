@@ -10,15 +10,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from TGNMusic import app
-from TGNMusic.misc import HAPP, SUDOERS, XCB
-from TGNMusic.utils.database import (
+from gitaristmusic import app
+from gitaristmusic.misc import HAPP, SUDOERS, XCB
+from gitaristmusic.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from TGNMusic.utils.decorators.language import language
-from TGNMusic.utils.pastebin import TGNBin
+from gitaristmusic.utils.decorators.language import language
+from gitaristmusic.utils.pastebin import TGNBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
