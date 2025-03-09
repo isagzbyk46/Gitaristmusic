@@ -35,26 +35,26 @@ async def init():
     await sudo()
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("TGNMusic.plugins" + all_module)
-    LOGGER("TGNMusic.plugins").info("Successfully Imported Modules...")
+        importlib.import_module("gitaristmusic.plugins" + all_module)
+    LOGGER("gitaristmusic.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await TGN.start()
     try:
         await TGN.stream_call("https://graph.org/file/ec8a35dd5f1ef90947167.mp4")
     except NoActiveGroupCall:
-        LOGGER("TGNMusic").error(
+        LOGGER("gitaristmusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
         )
         exit()
     except:
         pass
     await TGN.decorators()
-    LOGGER("TGNMusic").info(
-        "TGN Music Bot Started Successfully"
+    LOGGER("gitaristmusic").info(
+        "gitaristmusic Bot Started Successfully"
     )
     await idle()
     await app.stop()
-    LOGGER("TGNMusic").info("Stopping TGN Music Bot...")
+    LOGGER("gitaristmusic").info("Stopping TGN Music Bot...")
 
 
 if __name__ == "__main__":
