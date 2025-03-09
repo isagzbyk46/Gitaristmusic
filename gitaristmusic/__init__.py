@@ -1,8 +1,8 @@
-from TGNMusic.core.bot import TGN
-from TGNMusic.core.dir import dirr
-from TGNMusic.core.git import git
-from TGNMusic.core.userbot import Userbot
-from TGNMusic.misc import dbb, heroku, sudo
+from gitaristmusic.core.bot import TGN
+from gitaristmusic.core.dir import dirr
+from gitaristmusic.core.git import git
+from gitaristmusic.core.userbot import Userbot
+from gitaristmusic.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
 
