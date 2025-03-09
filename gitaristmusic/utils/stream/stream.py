@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from gitaristusic import Carbon, YouTube, app
-from gitaristusic.core.call import TGN
-from gitaristusic.misc import db
-from gitaristusic.utils.database import add_active_video_chat, is_active_chat
-from gitaristusic.utils.exceptions import AssistantErr
-from gitaristusic.utils.inline import aq_markup, close_markup, stream_markup
-from gitaristusic.utils.pastebin import TGNBin
-from gitaristusic.utils.stream.queue import put_queue, put_queue_index
-from gitaristusic.utils.thumbnails import get_thumb
+from gitaristmusic import Carbon, YouTube, app
+from gitaristmusic.core.call import TGN
+from gitaristmusic.misc import db
+from gitaristmusic.utils.database import add_active_video_chat, is_active_chat
+from gitaristmusic.utils.exceptions import AssistantErr
+from gitaristmusic.utils.inline import aq_markup, close_markup, stream_markup
+from gitaristmusic.utils.pastebin import TGNBin
+from gitaristmusic.utils.stream.queue import put_queue, put_queue_index
+from gitaristmusic.utils.thumbnails import get_thumb
 
 
 async def stream(
