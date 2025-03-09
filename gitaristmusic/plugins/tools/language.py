@@ -2,9 +2,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from TGNMusic import app
-from TGNMusic.utils.database import get_lang, set_lang
-from TGNMusic.utils.decorators import ActualAdminCB, language, languageCB
+from gitaristmusic import app
+from gitaristmusic.utils.database import get_lang, set_lang
+from gitaristmusic.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 
@@ -32,7 +32,7 @@ def lanuages_keyboard(_):
     return keyboard
 
 
-@app.on_message(filters.command(["lang", "setlang", "language"]) & ~BANNED_USERS)
+@app.on_message(filters.command(["lang", "dil", "setlang", "language"]) & ~BANNED_USERS)
 @language
 async def langs_command(client, message: Message, _):
     keyboard = lanuages_keyboard(_)
