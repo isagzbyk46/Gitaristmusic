@@ -4,17 +4,17 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
-from TGNMusic import app
-from TGNMusic.misc import SUDOERS
-from TGNMusic.utils.database import (
+from gitaristmusic import app
+from gitaristmusic.misc import SUDOERS
+from gitaristmusic.utils.database import (
     get_active_chats,
     get_authuser_names,
     get_client,
     get_served_chats,
     get_served_users,
 )
-from TGNMusic.utils.decorators.language import language
-from TGNMusic.utils.formatters import alpha_to_int
+from gitaristmusic.utils.decorators.language import language
+from gitaristmusic.utils.formatters import alpha_to_int
 from config import adminlist
 
 IS_BROADCASTING = False
