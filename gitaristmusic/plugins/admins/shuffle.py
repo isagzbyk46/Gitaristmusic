@@ -3,10 +3,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TGNMusic import app
-from TGNMusic.misc import db
-from TGNMusic.utils.decorators import AdminRightsCheck
-from TGNMusic.utils.inline import close_markup
+from gitaristmusic import app
+from gitaristmusic.misc import db
+from gitaristmusic.utils.decorators import AdminRightsCheck
+from gitaristmusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
