@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from TGNMusic import LOGGER, YouTube, app
-from TGNMusic.misc import db
-from TGNMusic.utils.database import (
+from gitaristmusic import LOGGER, YouTube, app
+from gitaristmusic.misc import db
+from gitaristmusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
