@@ -1,8 +1,8 @@
 from strings import get_string
 
-from gitaristusic import app
-from gitaristusic.misc import SUDOERS
-from gitaristusic.utils.database import get_lang, is_maintenance
+from gitaristmusic import app
+from gitaristmusic.misc import SUDOERS
+from gitaristmusic.utils.database import get_lang, is_maintenance
 
 
 def language(mystic):
