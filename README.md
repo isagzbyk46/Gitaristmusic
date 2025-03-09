@@ -1,83 +1,90 @@
-# Gitarist Music Bot
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-[![Stars](https://img.shields.io/github/stars/isagzbyk46/gitaristmusic?style=flat-square&color=yellow)](https://github.com/isagzbyk46/gitaristmusic/stargazers)
-[![Forks](https://img.shields.io/github/forks/isagzbyk46/gitaristmusic?style=flat-square&color=orange)](https://github.com/isagzbyk46/gitaristmusic/fork)
+<h2 align="center"> 
+     ──
+       「🎸𝐆𝖎𝖙𝖆𝖗𝖎𝖘𝖙 𝕸𝖚𝖘𝖎𝖈🎸」
+    ──
+</h2>
 
-[![Telegram](https://img.shields.io/badge/-Support-grey?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=8E2DE2)](https://t.me/YOUR_SUPPORT_GROUP)
-[![Telegram](https://img.shields.io/badge/-Updates-grey?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=8E2DE2)](https://t.me/YOUR_UPDATE_CHANNEL)
 
-## 🎵 Gitarist Music Bot
-Gitarist Music Bot, Telegram gruplarında YouTube'dan müzik çalabilen güçlü bir müzik botudur.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 🚀 Heroku'ya Deploy Et
-Aşağıdaki butona tıklayarak Heroku'ya hızlıca deploy edebilirsiniz:
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
+    
+</h3>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/isagzbyk46/gitaristmusic)
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/isagzbyk46/gitaristmusic"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
-## 🖥️ VPS Üzerine Kurulum
-Eğer botu bir VPS sunucusunda çalıştırmak istiyorsanız aşağıdaki adımları takip edin:
+</p>
 
-1. **Sunucunuzu güncelleyin:**
-   ```sh
+<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=720&lines=⚠️+FORKE+THIS+REPO+THEN+USE+AND+GIVE+STAR+ASLO+⚠️+...................">
+
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
+</h3>
+
+- Get your [Necessary Variables]( https://github.com/Learningbots79/LB_Music/master/sample.env)
+---
+
+### 🔧 Quick Setup
+
+1. **Upgrade & Update:**
+   ```bash
    sudo apt-get update && sudo apt-get upgrade -y
    ```
 
-2. **Gerekli paketleri yükleyin:**
-   ```sh
+2. **Install Required Packages:**
+   ```bash
    sudo apt-get install python3-pip ffmpeg -y
    ```
-
-3. **Node.js yükleyin:**
-   ```sh
-   curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-   sudo apt-get install nodejs -y && npm i -g npm
+3. **Setting up PIP**
+   ```bash
+   sudo pip3 install -U pip
    ```
-
-4. **Repository'yi klonlayın ve içine girin:**
-   ```sh
-   git clone https://github.com/isagzbyk46/gitaristmusic.git && cd gitaristmusic
+4. **Installing Node**
+   ```bash
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash && source ~/.bashrc && nvm install v18
    ```
-
-5. **Gerekli Python bağımlılıklarını yükleyin:**
-   ```sh
+5. **Clone the Repository**
+   ```bash
+   git clone https://github.com/isagzbyk46/gitaristmusic.git
+   ```
+6. **Install Requirements**
+   ```bash
    pip3 install -U -r requirements.txt
    ```
-
-6. **Çevre değişkenlerini (`.env`) oluşturun ve düzenleyin:**
-   ```sh
-   cp .env.example .env
-   nano .env
+7. **Create .env  with sample.env**
+   ```bash
+   cp sample.env .env
    ```
-   `nano` veya başka bir düzenleyiciyle `.env` dosyanızı açıp, gerekli API anahtarlarını girin.
-
-7. **Tmux veya Screen ile oturumu açık tutun:**
-   ```sh
-   sudo apt install tmux -y
-   tmux
+   - Edit .env with your vars
+8. **Editing Vars:**
+   ```bash
+   vi .env
    ```
+   - Edit .env with your values.
+   - Press `I` button on keyboard to start editing.
+   - Press `Ctrl + C`  once you are done with editing vars and type `:wq` to save .env or `:qa` to exit editing.
+9. **Installing tmux**
+    ```bash
+    sudo apt install tmux -y && tmux
+    ```
+10. **Run the Bot**
+    ```bash
+    bash start
+━━━━━━━━━━━━━━━━━━━━
 
-8. **Botu başlatın:**
-   ```sh
-   bash start.sh
-   ```
+<h3 align="center">
+    ─「 sᴜᴩᴩᴏʀᴛ 」─
+</h3>
 
-## 📜 Gerekli Değişkenler
-Botun çalışabilmesi için aşağıdaki ortam değişkenlerini (`.env` dosyanızda) ayarlamalısınız:
-- `API_ID` - Telegram API ID
-- `API_HASH` - Telegram API Hash
-- `BOT_TOKEN` - Telegram bot tokeni
-- `MONGO_URI` - MongoDB bağlantı adresi
-- `SESSION_STRING` - Pyrogram oturum stringi
-- `OWNER_ID` - Bot sahibinin Telegram ID'si
+<p align="center">
+<a href="https://t.me/gitaristmusic12"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</p>
 
-## 🔗 Bağlantılar
-- **Destek Grubu:** [Telegram](https://t.me/YOUR_SUPPORT_GROUP)
-- **Güncellemeler:** [Telegram](https://t.me/YOUR_UPDATE_CHANNEL)
+<p align="center">
+<a href="https://t.me/gitaristmusic"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</p>
 
-## 📌 Lisans
-Bu proje **GNU GPL-3.0** lisansı altında dağıtılmaktadır. Dilediğiniz gibi kullanabilir, paylaşabilir ve geliştirebilirsiniz.
-
----
-
-💙 **Gitarist Music** ile Telegram gruplarınızda müziğin keyfini çıkarın!
-
+- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ ʙʀᴀɴᴅᴇᴅ](https://github.com/isagzbyk46) ғᴏʀ [ʙʀᴀɴᴅᴇᴅ ᴍᴜsɪᴄ ʙᴏᴛ](https://t.me/BRANDRD_BOT)_</b>
