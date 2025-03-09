@@ -2,8 +2,8 @@ import time
 
 import psutil
 
-from gitaristusic.misc import _boot_
-from gitaristusic.utils.formatters import get_readable_time
+from gitaristmusic.misc import _boot_
+from gitaristmusic.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():
