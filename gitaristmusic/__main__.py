@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from TGNMusic import LOGGER, app, userbot
-from TGNMusic.core.call import TGN
-from TGNMusic.misc import sudo
-from TGNMusic.plugins import ALL_MODULES
-from TGNMusic.utils.database import get_banned_users, get_gbanned
+from gitaristmusic import LOGGER, app, userbot
+from gitaristmusic.core.call import TGN
+from gitaristmusic.misc import sudo
+from gitaristmusic.plugins import ALL_MODULES
+from gitaristmusic.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
