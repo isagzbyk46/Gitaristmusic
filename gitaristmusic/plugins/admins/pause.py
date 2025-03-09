@@ -1,15 +1,15 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TGNMusic import app
-from TGNMusic.core.call import TGN
-from TGNMusic.utils.database import is_music_playing, music_off
-from TGNMusic.utils.decorators import AdminRightsCheck
-from TGNMusic.utils.inline import close_markup
+from gitaristmusic import app
+from gitaristmusic.core.call import TGN
+from gitaristmusic.utils.database import is_music_playing, music_off
+from gitaristmusic.utils.decorators import AdminRightsCheck
+from gitaristmusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
-@app.on_message(filters.command(["pause", "cpause"]) & filters.group & ~BANNED_USERS)
+@app.on_message(filters.command(["pause", "dur","duraklat","cpause"]) & filters.group & ~BANNED_USERS)
 @AdminRightsCheck
 async def pause_admin(cli, message: Message, _, chat_id):
     if not await is_music_playing(chat_id):
