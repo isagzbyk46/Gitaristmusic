@@ -31,11 +31,11 @@ from gitaristmusic.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from TGNMusic.utils.exceptions import AssistantErr
-from TGNMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
-from TGNMusic.utils.inline.play import stream_markup
-from TGNMusic.utils.stream.autoclear import auto_clean
-from TGNMusic.utils.thumbnails import get_thumb
+from gitaristmusic.utils.exceptions import AssistantErr
+from gitaristmusic.utils.formatters import check_duration, seconds_to_min, speed_converter
+from gitaristmusic.utils.inline.play import stream_markup
+from gitaristmusic.utils.stream.autoclear import auto_clean
+from gitaristmusic.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}
