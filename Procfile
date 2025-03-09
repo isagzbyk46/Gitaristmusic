@@ -1,1 +1,1 @@
-python3 -m gitaristmusic
+worker: bash start
