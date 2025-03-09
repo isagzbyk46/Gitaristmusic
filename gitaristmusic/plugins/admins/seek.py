@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TGNMusic import YouTube, app
-from TGNMusic.core.call import TGN
-from TGNMusic.misc import db
-from TGNMusic.utils import AdminRightsCheck, seconds_to_min
-from TGNMusic.utils.inline import close_markup
+from gitaristmusic import YouTube, app
+from gitaristmusic.core.call import TGN
+from gitaristmusic.misc import db
+from gitaristmusic.utils import AdminRightsCheck, seconds_to_min
+from gitaristmusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
