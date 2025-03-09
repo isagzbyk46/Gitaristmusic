@@ -2,9 +2,9 @@ import asyncio
 from datetime import datetime
 
 import config
-from TGNMusic import app
-from TGNMusic.core.call import TGN, autoend
-from TGNMusic.utils.database import (get_client, is_active_chat,
+from gitaristmusic import app
+from gitaristmusic.core.call import TGN, autoend
+from gitaristmusic.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
 
@@ -13,7 +13,7 @@ async def auto_leave():
         while not await asyncio.sleep(
             config.AUTO_LEAVE_ASSISTANT_TIME
         ):
-            from TGNMusic.core.userbot import assistants
+            from gitaristmusic.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)
