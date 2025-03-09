@@ -5,19 +5,19 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
-from TGNMusic import app
-from TGNMusic.core.call import TGN
-from TGNMusic.misc import db
-from TGNMusic.utils.database import get_assistant, get_authuser_names, get_cmode
-from TGNMusic.utils.decorators import ActualAdminCB, AdminActual, language
-from TGNMusic.utils.formatters import alpha_to_int, get_readable_time
+from gitaristmusic import app
+from gitaristmusic.core.call import TGN
+from gitaristmusic.misc import db
+from gitaristmusic.utils.database import get_assistant, get_authuser_names, get_cmode
+from gitaristmusic.utils.decorators import ActualAdminCB, AdminActual, language
+from gitaristmusic.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 rel = {}
 
 
 @app.on_message(
-    filters.command(["admincache", "reload", "refresh"]) & filters.group & ~BANNED_USERS
+    filters.command(["admincache", "reload", "yenile", "refresh"]) & filters.group & ~BANNED_USERS
 )
 @language
 async def reload_admin_cache(client, message: Message, _):
