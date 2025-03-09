@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TGNMusic import app
-from TGNMusic.misc import SUDOERS
-from TGNMusic.utils.database import add_sudo, remove_sudo
-from TGNMusic.utils.decorators.language import language
-from TGNMusic.utils.extraction import extract_user
-from TGNMusic.utils.inline import close_markup
+from gitaristmusic import app
+from gitaristmusic.misc import SUDOERS
+from gitaristmusic.utils.database import add_sudo, remove_sudo
+from gitaristmusic.utils.decorators.language import language
+from gitaristmusic.utils.extraction import extract_user
+from gitaristmusic.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
