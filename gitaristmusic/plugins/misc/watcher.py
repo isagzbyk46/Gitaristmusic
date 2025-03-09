@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TGNMusic import app
-from TGNMusic.core.call import TGN
+from gitaristmusic import app
+from gitaristmusic.core.call import TGN
 
 welcome = 20
 close = 30
