@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from TGNMusic import YouTube, app
-from TGNMusic.core.call import TGN
-from TGNMusic.misc import db
-from TGNMusic.utils.database import get_loop
-from TGNMusic.utils.decorators import AdminRightsCheck
-from TGNMusic.utils.inline import close_markup, stream_markup
-from TGNMusic.utils.stream.autoclear import auto_clean
-from TGNMusic.utils.thumbnails import get_thumb
+from gitaristmusic import YouTube, app
+from gitaristmusic.core.call import TGN
+from gitaristmusic.misc import db
+from gitaristmusic.utils.database import get_loop
+from gitaristmusic.utils.decorators import AdminRightsCheck
+from gitaristmusic.utils.inline import close_markup, stream_markup
+from gitaristmusic.utils.stream.autoclear import auto_clean
+from gitaristmusic.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
