@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from gitaristusic import app
-from gitaristusic.misc import SUDOERS, db
-from gitaristusic.utils.database import (
+from gitaristmusic import app
+from gitaristmusic.misc import SUDOERS, db
+from gitaristmusic.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,
