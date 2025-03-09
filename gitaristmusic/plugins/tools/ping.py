@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TGNMusic import app
-from TGNMusic.core.call import TGN
-from TGNMusic.utils import bot_sys_stats
-from TGNMusic.utils.decorators.language import language
-from TGNMusic.utils.inline import supp_markup
+from gitaristmusic import app
+from gitaristmusic.core.call import TGN
+from gitaristmusic.utils import bot_sys_stats
+from gitaristmusic.utils.decorators.language import language
+from gitaristmusic.utils.inline import supp_markup
 from config import BANNED_USERS, PING_IMG_URL
 
 
