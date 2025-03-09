@@ -1,5 +1,5 @@
-from gitaristusic import app
-from gitaristusic.utils.database import get_cmode
+from gitaristmusic import app
+from gitaristmusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
