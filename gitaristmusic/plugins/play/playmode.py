@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from TGNMusic import app
-from TGNMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from TGNMusic.utils.decorators import language
-from TGNMusic.utils.inline.settings import playmode_users_markup
+from gitaristmusic import app
+from gitaristmusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from gitaristmusic.utils.decorators import language
+from gitaristmusic.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 
