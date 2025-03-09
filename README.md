@@ -18,7 +18,7 @@
 
 </p>
 
-<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=720&lines=⚠️+GİTARİST+MUSİC+SİZLERE/SAYGILAR+SUNAR+⚠️+...................">
+<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=720&lines=⚠️+GİTARİST+MUSİC+SİZLERE+SAYGILAR+SUNAR+⚠️+#ADMİN">
 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
