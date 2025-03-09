@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from TGNMusic import YouTube, app
-from TGNMusic.core.call import TGN
-from TGNMusic.misc import SUDOERS, db
-from TGNMusic.utils.database import (
+from gitaristmusic import YouTube, app
+from gitaristmusic.core.call import TGN
+from gitaristmusic.misc import SUDOERS, db
+from gitaristmusic.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,11 +17,11 @@ from TGNMusic.utils.database import (
     music_on,
     set_loop,
 )
-from TGNMusic.utils.decorators.language import languageCB
-from TGNMusic.utils.formatters import seconds_to_min
-from TGNMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
-from TGNMusic.utils.stream.autoclear import auto_clean
-from TGNMusic.utils.thumbnails import get_thumb
+from gitaristmusic.utils.decorators.language import languageCB
+from gitaristmusic.utils.formatters import seconds_to_min
+from gitaristmusic.utils.inline import close_markup, stream_markup, stream_markup_timer
+from gitaristmusic.utils.stream.autoclear import auto_clean
+from gitaristmusic.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,
