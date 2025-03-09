@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TGNMusic import app
-from TGNMusic.misc import SUDOERS
-from TGNMusic.utils.database import (
+from gitaristmusic import app
+from gitaristmusic.misc import SUDOERS
+from gitaristmusic.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,
