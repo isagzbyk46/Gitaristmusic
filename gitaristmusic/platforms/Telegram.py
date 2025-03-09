@@ -6,7 +6,7 @@ from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from TGNMusic import app
+from gitaristmusic import app
 from TGNMusic.utils.formatters import (
     check_duration,
     convert_bytes,
