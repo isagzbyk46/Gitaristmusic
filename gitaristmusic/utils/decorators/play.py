@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from gitaristusic import YouTube, app
-from gitaristusic.misc import SUDOERS
-from gitaristusic.utils.database import (
+from gitaristmusic import YouTube, app
+from gitaristmusic.misc import SUDOERS
+from gitaristmusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from gitaristusic.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from gitaristusic.utils.inline import botplaylist_markup
+from gitaristmusic.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 
