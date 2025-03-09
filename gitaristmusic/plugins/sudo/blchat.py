@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TGNMusic import app
-from TGNMusic.misc import SUDOERS
-from TGNMusic.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from TGNMusic.utils.decorators.language import language
+from gitaristmusic import app
+from gitaristmusic.misc import SUDOERS
+from gitaristmusic.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from gitaristmusic.utils.decorators.language import language
 from config import BANNED_USERS
 
 
