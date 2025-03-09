@@ -114,7 +114,7 @@ if SUPPORT_CHANNEL:
         )
 
 if SUPPORT_CHAT:
-    if not re.match("https://t.me/gitaristmusic12"):
+    if not re.match("(?:http|https)://", "https://t.me/gitaristmusic12"):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
         )
