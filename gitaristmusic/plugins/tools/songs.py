@@ -11,10 +11,10 @@ from pyrogram.types import (InlineKeyboardButton,
 
 from config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
                     SONG_DOWNLOAD_DURATION_LIMIT)
-from gitaristusic import YouTube, app
-from gitaristusic.utils.decorators.language import language, languageCB
-from gitaristusic.utils.formatters import convert_bytes
-from gitaristusic.utils.inline.song import song_markup
+from gitaristmusic import YouTube, app
+from gitaristmusic.utils.decorators.language import language, languageCB
+from gitaristmusic.utils.formatters import convert_bytes
+from gitaristmusic.utils.inline.song import song_markup
 
 # Command
 SONG_COMMAND = ["song"]
