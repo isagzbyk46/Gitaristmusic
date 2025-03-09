@@ -33,7 +33,7 @@ from gitaristmusic.utils.inline.settings import (
     setting_markup,
     vote_mode_markup,
 )
-from TGNMusic.utils.inline.start import private_panel
+from gitaristmusic.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 
