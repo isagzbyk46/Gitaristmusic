@@ -1,6 +1,6 @@
 [![](https://img.shields.io/badge/TgnMusic-V2-darkgreen)](#)
-[![Stars](https://img.shields.io/github/stars/Godfatherakkii/TGN-MUSIC?style=flat-square&color=yellow)](https://github.com/Godfatherakkii/TGN-MUSIC/stargazers)
-[![Forks](https://img.shields.io/github/forks/Godfatherakkii/TGN-MUSIC?style=flat-square&color=orange)](https://github.com/Godfatherakkii/TGN-MUSIC/fork)
+[![Stars](https://img.shields.io/github/stars/Godfatherakkii/TGN-MUSIC?style=flat-square&color=yellow)](https://github.com/isagzbyk46/gitaristmusic)
+[![Forks](https://img.shields.io/github/forks/Godfatherakkii/TGN-MUSIC?style=flat-square&color=orange)](https://github.com/isagzbyk46/gitaristmusic)
 
 
 [![Telegram](https://img.shields.io/badge/-Support-grey?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=8E2DE2)](https://t.me/TheGodfatherChat)
@@ -26,7 +26,7 @@
 ## 𝗗𝗲𝗽𝗹𝗼𝘆 𝗼𝗻 𝗛𝗲𝗿𝗼𝗸𝘂
 Get the [Necessary Variables](#Necessary-Variables) and then click the button below!  
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Godfatherakkii/TGN-MUSIC)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/isagzbyk46/gitaristmusic)
 
 ## 𝗗𝗲𝗽𝗹𝗼𝘆 𝗼𝗻 𝗩𝗣𝗦
 - Get your [Necessary Variables](https://github.com/Godfatherakkii/TGN-MUSIC/blob/master/.env)
