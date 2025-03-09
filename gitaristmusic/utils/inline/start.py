@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from gitaristusic import app
+from gitaristmusic import app
 
 
 def start_panel(_):
