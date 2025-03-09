@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TGNMusic import app
-from TGNMusic.core.call import TGN
-from TGNMusic.utils.database import set_loop
-from TGNMusic.utils.decorators import AdminRightsCheck
-from TGNMusic.utils.inline import close_markup
+from gitaristmusic import app
+from gitaristmusic.core.call import TGN
+from gitaristmusic.utils.database import set_loop
+from gitaristmusic.utils.decorators import AdminRightsCheck
+from gitaristmusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
