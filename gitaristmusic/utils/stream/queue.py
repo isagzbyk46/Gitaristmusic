@@ -1,8 +1,8 @@
 import asyncio
 from typing import Union
 
-from gitaristusic.misc import db
-from gitaristusic.utils.formatters import check_duration, seconds_to_min
+from gitaristmusic.misc import db
+from gitaristmusic.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 
