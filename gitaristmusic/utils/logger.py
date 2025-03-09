@@ -1,7 +1,7 @@
 from pyrogram.enums import ParseMode
 
-from TGNMusic import app
-from TGNMusic.utils.database import is_on_off
+from gitaristusic import app
+from gitaristusic.utils.database import is_on_off
 from config import LOG_GROUP_ID
 
 
