@@ -1,8 +1,8 @@
 import random
 from typing import Dict, List, Union
 
-from gitaristusic import userbot
-from gitaristusic.core.mongo import mongodb
+from gitaristmusic import userbot
+from gitaristmusic.core.mongo import mongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
