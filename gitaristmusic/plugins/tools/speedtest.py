@@ -4,9 +4,9 @@ import speedtest
 from pyrogram import filters
 from pyrogram.types import Message
 
-from gitaristusic import app
-from gitaristusic.misc import SUDOERS
-from gitaristusic.utils.decorators.language import language
+from gitaristmusic import app
+from gitaristmusic.misc import SUDOERS
+from gitaristmusic.utils.decorators.language import language
 
 
 def testspeed(m, _):
