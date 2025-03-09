@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TGNMusic import app
-from TGNMusic.utils import extract_user, int_to_alpha
-from TGNMusic.utils.database import (
+from gitaristmusic import app
+from gitaristmusic.utils import extract_user, int_to_alpha
+from gitaristmusic.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from TGNMusic.utils.decorators import AdminActual, language
-from TGNMusic.utils.inline import close_markup
+from gitaristmusic.utils.decorators import AdminActual, language
+from gitaristmusic.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 
