@@ -6,10 +6,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from TGNMusic import app
-from TGNMusic.misc import _boot_
-from TGNMusic.plugins.sudo.sudoers import sudoers_list
-from TGNMusic.utils.database import (
+from gitaristmusic import app
+from gitaristmusic.misc import _boot_
+from gitaristmusic.plugins.sudo.sudoers import sudoers_list
+from gitaristmusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -17,9 +17,9 @@ from TGNMusic.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from TGNMusic.utils.decorators.language import LanguageStart
-from TGNMusic.utils.formatters import get_readable_time
-from TGNMusic.utils.inline import help_pannel, private_panel, start_panel
+from gitaristmusic.utils.decorators.language import LanguageStart
+from gitaristmusic.utils.formatters import get_readable_time
+from gitaristmusic.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
