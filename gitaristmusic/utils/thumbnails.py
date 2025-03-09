@@ -8,7 +8,7 @@ from PIL import (Image, ImageDraw, ImageEnhance, ImageFilter,
                  ImageFont, ImageOps)
 from youtubesearchpython.__future__ import VideosSearch
 
-from TGNMusic import app
+from gitaristusic import app
 from config import YOUTUBE_IMG_URL
 
 
