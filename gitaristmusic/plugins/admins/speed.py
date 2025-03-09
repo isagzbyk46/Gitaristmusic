@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TGNMusic import app
-from TGNMusic.core.call import TGN
-from TGNMusic.misc import SUDOERS, db
-from TGNMusic.utils import AdminRightsCheck
-from TGNMusic.utils.database import is_active_chat, is_nonadmin_chat
-from TGNMusic.utils.decorators.language import languageCB
-from TGNMusic.utils.inline import close_markup, speed_markup
+from gitaristmusic import app
+from gitaristmusic.core.call import TGN
+from gitaristmusic.misc import SUDOERS, db
+from gitaristmusic.utils import AdminRightsCheck
+from gitaristmusic.utils.database import is_active_chat, is_nonadmin_chat
+from gitaristmusic.utils.decorators.language import languageCB
+from gitaristmusic.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
