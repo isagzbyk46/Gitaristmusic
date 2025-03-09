@@ -1,5 +1,5 @@
 {
-    "name": "TGN MUSIC",
+    "name": "gitaristmusic",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://graph.org/file/b5c8b5da501bb64508b10.jpg",
     "keywords": [
