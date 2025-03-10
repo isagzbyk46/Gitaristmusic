@@ -54,7 +54,7 @@ async def init():
     )
     await idle()
     await app.stop()
-    LOGGER("gitaristmusic").info("Stopping TGN Music Bot...")
+    LOGGER("gitaristmusic").info("Stopping gitaristmusic Bot...")
 
 
 if __name__ == "__main__":
